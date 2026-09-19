@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"n1","type":"file","file":"wiki/overview.md","x":0,"y":0,"width":300,"height":160},
+		{"id":"n2","type":"file","file":"wiki/entities/Celda de inspección automatizada.md","x":400,"y":0,"width":300,"height":160},
+		{"id":"n3","type":"file","file":"wiki/entities/PLC.md","x":850,"y":-300,"width":300,"height":160},
+		{"id":"n4","type":"file","file":"wiki/entities/Robot industrial.md","x":850,"y":-100,"width":300,"height":160},
+		{"id":"n5","type":"file","file":"wiki/entities/Sistema de visión.md","x":850,"y":100,"width":300,"height":160},
+		{"id":"n6","type":"file","file":"wiki/entities/HMI.md","x":850,"y":300,"width":300,"height":160},
+		{"id":"n7","type":"file","file":"wiki/entities/Red industrial.md","x":850,"y":500,"width":300,"height":160},
+		{"id":"n8","type":"file","file":"wiki/concepts/Sistema experto.md","x":400,"y":450,"width":300,"height":160},
+		{"id":"n9","type":"file","file":"wiki/concepts/Evidencia.md","x":0,"y":700,"width":300,"height":160},
+		{"id":"n10","type":"file","file":"wiki/concepts/Reglas de producción.md","x":400,"y":700,"width":300,"height":160},
+		{"id":"n11","type":"file","file":"wiki/concepts/Inferencia.md","x":800,"y":700,"width":300,"height":160},
+		{"id":"n12","type":"file","file":"wiki/concepts/Diagnóstico de fallas.md","x":1200,"y":700,"width":300,"height":160},
+		{"id":"n13","type":"file","file":"wiki/concepts/Causa raíz.md","x":1600,"y":700,"width":300,"height":160},
+		{"id":"n14","type":"file","file":"wiki/concepts/Knowledge Graph.md","x":400,"y":950,"width":300,"height":160},
+		{"id":"n15","type":"file","file":"wiki/concepts/Proveniencia.md","x":0,"y":950,"width":300,"height":160}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"n1","toNode":"n2","fromSide":"right","toSide":"left"},
+		{"id":"e2","fromNode":"n2","toNode":"n3","fromSide":"top","toSide":"bottom"},
+		{"id":"e3","fromNode":"n2","toNode":"n4","fromSide":"right","toSide":"left"},
+		{"id":"e4","fromNode":"n2","toNode":"n5","fromSide":"right","toSide":"left"},
+		{"id":"e5","fromNode":"n2","toNode":"n6","fromSide":"bottom","toSide":"top"},
+		{"id":"e6","fromNode":"n2","toNode":"n7","fromSide":"bottom","toSide":"top"},
+		{"id":"e7","fromNode":"n1","toNode":"n8","fromSide":"bottom","toSide":"top"},
+		{"id":"e8","fromNode":"n9","toNode":"n8","fromSide":"top","toSide":"bottom"},
+		{"id":"e9","fromNode":"n10","toNode":"n8","fromSide":"top","toSide":"bottom"},
+		{"id":"e10","fromNode":"n8","toNode":"n11","fromSide":"bottom","toSide":"top"},
+		{"id":"e11","fromNode":"n11","toNode":"n12","fromSide":"right","toSide":"left"},
+		{"id":"e12","fromNode":"n12","toNode":"n13","fromSide":"right","toSide":"left"},
+		{"id":"e13","fromNode":"n14","toNode":"n8","fromSide":"top","toSide":"bottom"},
+		{"id":"e14","fromNode":"n15","toNode":"n9","fromSide":"top","toSide":"bottom"}
+	]
+}
